@@ -32,6 +32,40 @@
     color: chartreuse
 }
 
+#menu {
+    background-color: dimgrey;
+}
+
+#menu ul{
+    padding: 0px; 	
+    margin: 0px;
+}
+
+#menu ul li {
+    display: inline; 	
+    margin-right: 1em;
+} 
+
+
+#menu ul li a { 
+    font-family: "Trebuchet MS", sans-serif; 
+    text-decoration: none;
+} 
+
+
+#menu ul li a:hover{ 
+    border-bottom: dotted 1px #fff;	 
+}
+
+#main {
+    text-align: left;
+    padding: 5px 10px;
+}
+
+#main ul li{
+    list-style-type: disc;
+}
+
 #footer {
     background-color: dimgrey;
     font-size: small;
