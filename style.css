@@ -1,0 +1,60 @@
+*  {
+          padding : 0px ;
+          margin : 0px ;
+}
+
+/*デフォルト表示*/
+#all {
+          width: 800px;
+          margin: 5px auto;
+          text-align: center;
+          margin-left: auto;
+          margin-right: auto;
+          background-color: black;
+          color: aliceblue;
+}
+/*小さい画面時の表示*/
+@media screen and ( max-width:479px )
+{
+	#all
+	{
+		width: auto ;
+		padding: 0 10px ;
+        text-align: center;
+	}
+}
+
+#header {
+    background-color: darkblue
+}
+
+#header h1{
+    color: chartreuse
+}
+
+#footer {
+    background-color: dimgrey;
+    font-size: small;
+}
+
+#footer ul{
+    padding: 0px; 	
+    margin: 0px;
+}
+
+#footer ul li {
+    display: inline; 	
+    margin-right: 1em;
+} 
+
+
+#footer ul li a { 
+    font-family: "Trebuchet MS", sans-serif; 
+    text-decoration: none;
+    color: aqua; 	 
+} 
+
+
+#footer ul li a:hover{ 
+    border-bottom: dotted 1px #fff;	 
+}
