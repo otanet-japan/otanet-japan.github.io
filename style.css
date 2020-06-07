@@ -28,6 +28,14 @@ p{
   text-indent: 1em;
 }
 
+a:link{
+    color: limegreen;
+}
+
+a:visited{
+    color: limegreen;
+}
+
 ul{
     list-style-position: inside;
 }
@@ -36,8 +44,8 @@ ul{
     background-color: darkblue
 }
 
-#header h1{
-    color: chartreuse
+#header h3{
+    text-align: left;
 }
 
 #menu {
@@ -94,7 +102,7 @@ ul{
 #footer ul li a { 
     font-family: "Trebuchet MS", sans-serif; 
     text-decoration: none;
-    color: aqua; 	 
+    color: deepskyblue; 	 
 } 
 
 
